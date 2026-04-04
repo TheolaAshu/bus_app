@@ -17,13 +17,19 @@ export default function Header() {
               />
             </div>
           </div>
-          <div className="relative w-full text-white">
+          <div className="relative group w-full text-black">
             <input
               type={"search"}
               name={"search"}
               placeholder={"Search Agencies...."}
               className="bg-white h-10 px-5 pr-10 w-full rounded-full text-sm focus:outline-none"
             />
+            Search
+            <ul className="absolute hidden group-hover:block bg-black-400 left-0 top-2">
+              <li>Africon</li>
+              <li>Golden</li>
+              <li>Musango</li>
+            </ul>
           </div>
           <div className="hidden md:block">
             <ul className="ml-4 flex items-center space-x-4">

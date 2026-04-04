@@ -3,19 +3,6 @@ import { useState } from "react";
 import { useRouter } from "next/router";
 
 export default function Home() {
-  /*const router = useRouter();
-  const stoppages: string[] = [
-    "Buea",
-    "Douala",
-    "Yaounde",
-    "Ebolowa",
-    "Maroua",
-    "Garoua",
-    "Ngoundere",
-    "Bamenda",
-    "Bertoua",
-    "Bafoussam",
-  ];*/
   return (
     <main className="bg-[url('/bus.jpg')] bg-cover bg-center h-screen">
       <div
