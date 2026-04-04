@@ -47,7 +47,7 @@ export default function Home() {
           />
           <button
             type="submit"
-            className="bg-pink-600 font-bold text-md h-22 px-5 py-5 text-white"
+            className="bg-black font-bold text-md h-22 px-5 py-5 text-white hover:bg-white hover:text-black"
           >
             {" "}
             Search buses
