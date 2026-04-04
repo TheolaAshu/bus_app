@@ -17,6 +17,14 @@ export default function Header() {
               />
             </div>
           </div>
+          <div className="relative w-full text-white">
+            <input
+              type={"search"}
+              name={"search"}
+              placeholder={"Search Agencies...."}
+              className="bg-white h-10 px-5 pr-10 w-full rounded-full text-sm focus:outline-none"
+            />
+          </div>
           <div className="hidden md:block">
             <ul className="ml-4 flex items-center space-x-4">
               <li>
