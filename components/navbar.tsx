@@ -24,11 +24,16 @@ export default function Header() {
               placeholder={"Search Agencies...."}
               className="bg-white h-10 px-5 pr-10 w-full rounded-full text-sm focus:outline-none"
             />
-            Search
-            <ul className="absolute hidden group-hover:block bg-black-400 left-0 top-2">
-              <li>Africon</li>
-              <li>Golden</li>
-              <li>Musango</li>
+            <ul className="absolute hidden group-hover:block bg-gray-600 left-0 top-2">
+              <li className="hover:bg-gray-200 px-4 py-2 rounded-lg hover:text-black">
+                Africon
+              </li>
+              <li className="hover:bg-gray-200 px-4 py-2 rounded-lg hover:text-black">
+                Golden
+              </li>
+              <li className="hover:bg-gray-200 px-4 py-2 rounded-lg hover:text-black">
+                Musango
+              </li>
             </ul>
           </div>
           <div className="hidden md:block">
