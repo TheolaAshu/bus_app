@@ -17,14 +17,14 @@ export default function Header() {
               />
             </div>
           </div>
-          <div className="relative group w-full text-black">
+          <div className="relative group w-[500px] text-black">
             <input
               type={"search"}
               name={"search"}
               placeholder={"Search Agencies...."}
               className="bg-white h-10 px-5 pr-10 w-full rounded-full text-sm focus:outline-none"
             />
-            <ul className="absolute hidden group-hover:block bg-gray-600 left-0 top-2">
+            <ul className="absolute hidden group-hover:block bg-gray-600 left-0 top-10 w-full rounded-md">
               <li className="hover:bg-gray-200 px-4 py-2 rounded-lg hover:text-black">
                 Africon
               </li>
