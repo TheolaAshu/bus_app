@@ -1,15 +1,17 @@
 "use client";
 import { useState } from "react";
 import { useRouter } from "next/router";
+import BusTable from "@/components/table";
 
 export default function Home() {
   return (
-    <main className="bg-[url('/bus.jpg')] bg-cover bg-center h-screen">
+    <main className="bg-[url('/buso.jpg')] bg-cover bg-center h-screen ">
       <div
         id="main"
         className="flex justify-center items-center w-full h-screen"
       >
-        <form action="" method="post" className="flex">
+        <BusTable/>
+        {/* <form action="" method="post" className="flex">
           <div id="origin">
             <input
               type="text"
@@ -39,7 +41,7 @@ export default function Home() {
             {" "}
             Search buses
           </button>
-        </form>
+        </form> */}
       </div>
     </main>
   );

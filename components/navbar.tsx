@@ -8,11 +8,11 @@ export default function Header() {
           <div className="flex items-center">
             <div className="flex items-center flex-shrink-o">
               <Image
-                src="/newbuslogo.jpg"
+                src="/bimg.png"
                 alt="Logo"
-                width={100}
-                height={100}
-                className="rounded-border"
+                width={60}
+                height={60}
+                className="rounded-full"
                 priority
               />
             </div>
