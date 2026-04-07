@@ -19,7 +19,7 @@ export default function Home() {
   useEffect(() => {
     const fetchBus = async () => {
       try {
-        const response = await api.get<Bus>("/agencies/2");
+        const response = await api.get<Bus>("/agencies/3");
         setBus(response.data);
       } catch (error) {
         console.error("Error fetching bus:", error);
